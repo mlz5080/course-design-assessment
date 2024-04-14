@@ -1,6 +1,16 @@
 # Course Management System
 You are asked to design a course management system. This system will help the faculty manage many courses, along with the enrolled students in each of the courses, and track their assignments.
 
+## Usage
+Under root folder
+1. Run main driver file  
+`python main.py` or `python3 main.py`
+2. To run happy path unit test cases  
+`python -m unittest tests\happyPathTestCases.py`
+3. To run failure test cases  
+`python -m unittest tests\failureTestCases.py`
+
+
 ## Requirements
 This assessment has to be done in Python language.
 
